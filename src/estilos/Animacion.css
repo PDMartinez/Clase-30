@@ -1,0 +1,31 @@
+
+/* Entrada: el elemento comienza transparente */
+.fade-enter {
+  opacity: 0;
+}
+
+/* Entrada: el elemento aparece gradualmente */
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+/* Salida: el elemento comienza visible */
+.fade-exit {
+  opacity: 1;
+}
+
+/* Salida: el elemento desaparece gradualmente */
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-out;
+}
+
+/* Estilo del mensaje */
+.mensaje {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #dbeafe;
+  color: #1e40af;
+  border-radius: 8px;
+}
